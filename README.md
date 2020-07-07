@@ -54,7 +54,7 @@ Your Chat ID will be shown in this format **`"id":7041782343`**, based on this e
 
 ***
 
-### Installation
+## Step 3: Installation
 Make sure you are logged in as the root user.  Switch to root user using su - root if you are not logged in as root.
 
 mkdir -p /root/trac-agram
@@ -63,7 +63,14 @@ wget https://raw.githubusercontent.com/Geordie-R/trac-agram/master/nodemonitor.s
 
 ***
 
-### Set Schedule to run script
+## Step 4: Manually run the script
+
+We must manually run the script as the first time you run it will ask a series of question.  We must have our telegram bot token and telegram chat ID.  Also think about what you want this node to be known as when the telegram message comes through i.e. Geordie Node 1 might be something I'd chose.
+
+
+
+
+## Step 5: Schedule to run script
 
 Now we can add this to crontab manually for now and choose to run it on a schedule of our choosing. Type the following into the terminal
 ```
@@ -88,5 +95,4 @@ Now add the following line to the bottom of the script to make it run every 15 m
 0 */2 * * * /root/trac-agram/nodemonitor.sh
 ```
 ***
-
 
