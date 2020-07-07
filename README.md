@@ -71,19 +71,19 @@ crontab -e
 ```
 
 Now add the following line to the bottom of the script to make it run every 15 minutes.  I will give a few examples for you to choose from.
-# Option 1
-## Running every 15 minutes
+## Option 1
+### Running every 15 minutes
 ```
 */15 * * * * /root/trac-agram/nodemonitor.sh
 ```
 
-# Option 2
-## Running every day at 8am. Note: For 2pm change 8 to 14.
+## Option 2
+### Running every day at 8am. Note: For 2pm change 8 to 14.
 ```
 0 8 * * * /root/trac-agram/nodemonitor.sh
 ```
-# Option 3
-## Running every 2 hours.
+## Option 3
+### Running every 2 hours.
 ```
 0 */2 * * * /root/trac-agram/nodemonitor.sh
 ```
