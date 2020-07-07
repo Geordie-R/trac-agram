@@ -52,7 +52,7 @@ Your Chat ID will be shown in this format **`"id":7041782343`**, based on this e
 
 <br>
 
-***
+
 
 ##Installation
 Make sure you are logged in as the root user.  Switch to root user using su - root if you are not logged in as root.
@@ -86,6 +86,6 @@ Now add the following line to the bottom of the script to make it run every 15 m
 ```
 0 */2 * * * /root/trac-agram/nodemonitor.sh
 ```
-
+***
 
 
