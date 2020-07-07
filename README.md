@@ -1,5 +1,7 @@
 # Trac-agram
 
+This is a log parser i wrote to monitor the origin trail node logs.  Its the very first draft but hopefully some of you find it useful.
+
 ## Step 1: Create Telegram Bot Using Botfather
 
 #### The following steps describe how to create a new bot:
