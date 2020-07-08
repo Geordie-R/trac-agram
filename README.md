@@ -42,7 +42,7 @@ There are some other useful methods in BotFather which we won't cover in this tu
 
 <br>
 
-## Step 2: Obtain Your Chat Idenification Number
+## Step 2: Obtain Your Chat Identification Number
 
 <br>
 
